@@ -23,7 +23,7 @@ function showData(data) {
        dateDiv = document.querySelector(".date"),
        tempDiv = document.querySelector(".temp"),
        weatherDiv = document.querySelector(".weather").style.color = "";
-       highLowDiv = document.querySelector(".hi-low").style.color = "";
+       highLowDiv = document.querySelector(".hi-low").style.color = "red";
   // console.log(data.sys.country);
   cityDiv.innerHTML = `${data.name}, ${data.sys.country}`;
   dateDiv.innerHTML = showDate();
