@@ -22,8 +22,8 @@ function showData(data) {
   let  cityDiv = document.querySelector(".city"),
        dateDiv = document.querySelector(".date"),
        tempDiv = document.querySelector(".temp"),
-       weatherDiv = document.querySelector(".weather").style.color = "white";
-       highLowDiv = document.querySelector(".hi-low").style.color = "white";
+       weatherDiv = document.querySelector(".weather"), 
+       highLowDiv = document.querySelector(".hi-low")
   // console.log(data.sys.country);
   cityDiv.innerHTML = `${data.name}, ${data.sys.country}`;
   dateDiv.innerHTML = showDate();
